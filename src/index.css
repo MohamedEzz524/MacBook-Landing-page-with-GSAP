@@ -113,7 +113,7 @@ body {
   }
 
   #hero {
-    @apply col-center mt-40 h-fit lg:mt-20 lg:h-[80vh] 2xl:mt-[7vh];
+    @apply col-center mt-40 h-fit lg:mt-20 lg:h-[80vh] 2xl:mt-[7vh] 2xl:h-screen;
 
     div {
       @apply col-center relative z-10 lg:translate-y-16;
