@@ -34,99 +34,99 @@ export default function MacbookModel14(props: React.ComponentProps<'group'>) {
   return (
     <group {...props} dispose={null}>
       <mesh
-        geometry={nodes.Object_10.geometry}
+        geometry={(nodes.Object_10 as Mesh).geometry}
         material={materials.PaletteMaterial001}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_16.geometry}
+        geometry={(nodes.Object_16 as Mesh).geometry}
         material={materials.zhGRTuGrQoJflBD}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_20.geometry}
+        geometry={(nodes.Object_20 as Mesh).geometry}
         material={materials.PaletteMaterial002}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_22.geometry}
+        geometry={(nodes.Object_22 as Mesh).geometry}
         material={materials.lmWQsEjxpsebDlK}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_30.geometry}
+        geometry={(nodes.Object_30 as Mesh).geometry}
         material={materials.LtEafgAVRolQqRw}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_32.geometry}
+        geometry={(nodes.Object_32 as Mesh).geometry}
         material={materials.iyDJFXmHelnMTbD}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_34.geometry}
+        geometry={(nodes.Object_34 as Mesh).geometry}
         material={materials.eJObPwhgFzvfaoZ}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_38.geometry}
+        geometry={(nodes.Object_38 as Mesh).geometry}
         material={materials.nDsMUuDKliqGFdU}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_42.geometry}
+        geometry={(nodes.Object_42 as Mesh).geometry}
         material={materials.CRQixVLpahJzhJc}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_48.geometry}
+        geometry={(nodes.Object_48 as Mesh).geometry}
         material={materials.YYwBgwvcyZVOOAA}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_54.geometry}
+        geometry={(nodes.Object_54 as Mesh).geometry}
         material={materials.SLGkCohDDelqXBu}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_58.geometry}
+        geometry={(nodes.Object_58 as Mesh).geometry}
         material={materials.WnHKXHhScfUbJQi}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_66.geometry}
+        geometry={(nodes.Object_66 as Mesh).geometry}
         material={materials.fNHiBfcxHUJCahl}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_74.geometry}
+        geometry={(nodes.Object_74 as Mesh).geometry}
         material={materials.LpqXZqhaGCeSzdu}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_82.geometry}
+        geometry={(nodes.Object_82 as Mesh).geometry}
         material={materials.gMtYExgrEUqPfln}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_96.geometry}
+        geometry={(nodes.Object_96 as Mesh).geometry}
         material={materials.PaletteMaterial003}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_107.geometry}
+        geometry={(nodes.Object_107 as Mesh).geometry}
         material={materials.JvMFZolVCdpPqjj}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_123.geometry}
+        geometry={(nodes.Object_123 as Mesh).geometry}
         material={materials.sfCQkHOWyrsLmor}
         rotation={[Math.PI / 2, 0, 0]}
       >
         <meshBasicMaterial map={texture} />
       </mesh>
       <mesh
-        geometry={nodes.Object_127.geometry}
+        geometry={(nodes.Object_127 as Mesh).geometry}
         material={materials.ZCDwChwkbBfITSW}
         rotation={[Math.PI / 2, 0, 0]}
       />
