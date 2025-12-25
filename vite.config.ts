@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/apple-website/',
+  base: '/MacBook-Landing-page-with-GSAP/',
   plugins: [react(), tailwindcss()],
   assetsInclude: ['**/*.glb'],
 });
