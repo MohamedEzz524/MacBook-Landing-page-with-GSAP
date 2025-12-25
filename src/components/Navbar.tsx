@@ -1,13 +1,10 @@
-import logo from '../../public/logo.svg';
-import search from '../../public/search.svg';
-import cart from '../../public/cart.svg';
 import { navLinks } from '../constants';
 
 const Navbar = () => {
   return (
     <header>
       <nav>
-        <img src={logo} alt="Apple Logo" />
+        <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Apple Logo" />
 
         <ul>
           {navLinks.map(({ label, href }) => (
@@ -19,10 +16,10 @@ const Navbar = () => {
 
         <div className="flex-center gap-3">
           <button>
-            <img src={search} alt="Search" />
+            <img src={`${import.meta.env.BASE_URL}search.svg`} alt="Search" />
           </button>
           <button>
-            <img src={cart} alt="Cart" />
+            <img src={`${import.meta.env.BASE_URL}cart.svg`} alt="Cart" />
           </button>
         </div>
       </nav>

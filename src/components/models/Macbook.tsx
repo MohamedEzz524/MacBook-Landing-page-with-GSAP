@@ -8,10 +8,10 @@ Source: https://sketchfab.com/3d-models/macbook-pro-m3-16-inch-2024-8e34fc2b3031
 Title: macbook pro M3 16 inch 2024
 */
 
-import React from 'react';
 import { useGLTF, useTexture } from '@react-three/drei';
+import { Mesh } from 'three';
 
-export default function MacbookModel(props) {
+export default function MacbookModel(props: React.ComponentProps<'group'>) {
   const { nodes, materials } = useGLTF(
     `${import.meta.env.BASE_URL}models/macbook-transformed.glb`,
   );
@@ -20,99 +20,99 @@ export default function MacbookModel(props) {
   return (
     <group {...props} dispose={null}>
       <mesh
-        geometry={nodes.Object_10.geometry}
+        geometry={(nodes.Object_10 as Mesh).geometry}
         material={materials.PaletteMaterial001}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_16.geometry}
+        geometry={(nodes.Object_16 as Mesh).geometry}
         material={materials.zhGRTuGrQoJflBD}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_20.geometry}
+        geometry={(nodes.Object_20 as Mesh).geometry}
         material={materials.PaletteMaterial002}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_22.geometry}
+        geometry={(nodes.Object_22 as Mesh).geometry}
         material={materials.lmWQsEjxpsebDlK}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_30.geometry}
+        geometry={(nodes.Object_30 as Mesh).geometry}
         material={materials.LtEafgAVRolQqRw}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_32.geometry}
+        geometry={(nodes.Object_32 as Mesh).geometry}
         material={materials.iyDJFXmHelnMTbD}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_34.geometry}
+        geometry={(nodes.Object_34 as Mesh).geometry}
         material={materials.eJObPwhgFzvfaoZ}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_38.geometry}
+        geometry={(nodes.Object_38 as Mesh).geometry}
         material={materials.nDsMUuDKliqGFdU}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_42.geometry}
+        geometry={(nodes.Object_42 as Mesh).geometry}
         material={materials.CRQixVLpahJzhJc}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_48.geometry}
+        geometry={(nodes.Object_48 as Mesh).geometry}
         material={materials.YYwBgwvcyZVOOAA}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_54.geometry}
+        geometry={(nodes.Object_54 as Mesh).geometry}
         material={materials.SLGkCohDDelqXBu}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_58.geometry}
+        geometry={(nodes.Object_58 as Mesh).geometry}
         material={materials.WnHKXHhScfUbJQi}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_66.geometry}
+        geometry={(nodes.Object_66 as Mesh).geometry}
         material={materials.fNHiBfcxHUJCahl}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_74.geometry}
+        geometry={(nodes.Object_74 as Mesh).geometry}
         material={materials.LpqXZqhaGCeSzdu}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_82.geometry}
+        geometry={(nodes.Object_82 as Mesh).geometry}
         material={materials.gMtYExgrEUqPfln}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_96.geometry}
+        geometry={(nodes.Object_96 as Mesh).geometry}
         material={materials.PaletteMaterial003}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_107.geometry}
+        geometry={(nodes.Object_107 as Mesh).geometry}
         material={materials.JvMFZolVCdpPqjj}
         rotation={[Math.PI / 2, 0, 0]}
       />
       <mesh
-        geometry={nodes.Object_123.geometry}
+        geometry={(nodes.Object_123 as Mesh).geometry}
         material={materials.sfCQkHOWyrsLmor}
         rotation={[Math.PI / 2, 0, 0]}
       >
         <meshBasicMaterial map={texture} />
       </mesh>
       <mesh
-        geometry={nodes.Object_127.geometry}
+        geometry={(nodes.Object_127 as Mesh).geometry}
         material={materials.ZCDwChwkbBfITSW}
         rotation={[Math.PI / 2, 0, 0]}
       />
